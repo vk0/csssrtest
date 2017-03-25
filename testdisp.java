@@ -1,4 +1,4 @@
-
+О╩©
 
 import org.testng.annotations.Test;
 
@@ -10,8 +10,8 @@ public class testdisp {
 	@Test
 	public void searchDisplayed(){
 		open("http://blog.csssr.ru/qa-engineer/");
-		$(byText("мюундхрэ меянбепьемярбю")).click();
-		$(byText("мюундхрэ меянбепьемярбю")).click();
+		$(byText("п²п░п╔п·п■п≤п╒п╛ п²п∙п║п·п▓п∙п═п╗п∙п²п║п╒п▓п░")).click();
+		$(byText("п²п░п╔п·п■п≤п╒п╛ п²п∙п║п·п▓п∙п═п╗п∙п²п║п╒п▓п░")).click();
 		sleep(2000);
 		$(byCssSelector("div.info-errors")).shouldBe(visible);
 		
